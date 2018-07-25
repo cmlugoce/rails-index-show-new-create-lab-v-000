@@ -1,7 +1,7 @@
 class CreateCoupons < ActiveRecord::Migration
 
 
-def change 
+def change
   create_table :coupons do |t|
   t.string :coupon_code
   t.string :store
@@ -10,4 +10,4 @@ def change
 end
 end
 
-end 
+end
